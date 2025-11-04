@@ -10,7 +10,8 @@
 }
 
 .image .two .words .top svg,
-.four {
+.four,
+.do {
     display: none;
 }
 
@@ -99,7 +100,7 @@ h1 {
     height: 10svh;
 }
 
-p {
+.words p {
     width: 40%;
     height: 5svh;
     font-size: 20px;
@@ -242,9 +243,420 @@ input {
     padding-top: 10px;
 }
 
+/* ======================================== */
+.get h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.get {
+    height: 50svh;
+
+}
+
+.trips {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 
 
-/* media guery */
+.get .trips .trip-1 {
+    background-image: url(../images/three-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45svh;
+    border-radius: 8px;
+    width: 100%;
+    color: #F2F2F2;
+}
+
+.trip-1 p {
+    width: 95%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.trip-1 h2 {
+    width: 95%;
+    margin-top: 200px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+.get .trips .trip-2 {
+    background-image: url(../images/three-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45svh;
+    border-radius: 8px;
+    width: 100%;
+    color: #F2F2F2;
+    font-size: 15px;
+}
+
+.trip-2 p {
+    width: 95%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.trip-2 h2 {
+    width: 95%;
+    margin-top: 200px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.get .trips .trip-3 {
+    background-image: url(../images/three-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45svh;
+    border-radius: 8px;
+    width: 100%;
+    color: #F2F2F2;
+    font-size: 15px;
+}
+
+.trip-3 p {
+    margin-left: 20px;
+    width: 95%;
+}
+
+.trip-3 h2 {
+    margin-top: 200px;
+    font-size: 25px;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ */
+.popular h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #25292C;
+}
+
+.popular .seas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.sea img {
+    width: 100%;
+    height: 50svh;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sea div h3 {
+    font-size: 22px;
+    color: #212122;
+}
+
+.sea div p {
+    font-size: 20px;
+    color: #333333;
+}
+
+/* ++++++++++++++++++++++++++++++ */
+.to-do {
+    margin-top: 50px;
+}
+
+.to-do .see-all {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.see-all a {
+    color: rgba(37, 41, 44, 1);
+    font-size: 28px;
+}
+
+.see-all h2 {
+    color: rgba(37, 41, 44, 1);
+    font-size: 28px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #F2F2F2;
+    font-size: 28px;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.options .first {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.to-do .options .option-1 {
+    background-image: url(../images/five\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.to-do .options .option-4 {
+    background-image: url(../images/five\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.options .center {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.to-do .options .option-2 {
+    background-image: url(../images/five\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 104.5svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.to-do .options .option-3 {
+    background-image: url(../images/five\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.to-do .options .option-6 {
+    background-image: url(../images/five\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.to-do .options .option-5 {
+    background-image: url(../images/five\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.options .end {
+    display: grid;
+    gap: 30px;
+}
+
+.options .end .top {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.options .end .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.options p {
+    margin-top: 320px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.options .center .option-2 p {
+    margin-top: 750px;
+}
+
+.our-foot {
+    margin-top: 60px;
+}
+
+.our-foot .foots {
+    margin-top: 40px;
+}
+
+.foots {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: 30svh;
+}
+
+.foots .foot {
+    margin-inline: auto;
+}
+
+.foots .foot div {
+    margin-top: 20px;
+
+}
+
+
+.foots .foot div h3 {
+    font-size: 30px;
+}
+
+.foots .foot div p {
+    font-size: 12px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.foots .foot svg {
+    margin-left: 10px;
+}
+
+
+.foots .foot .camp h3 {
+    margin-left: 12px;
+}
+
+.our-foot h2 {
+    font-size: 30px;
+}
+
+/* ________________________________ */
+
+.download {
+    margin-top: 70px;
+}
+
+.download .img .down {
+    background-image: url(../images/six1.png);
+    background-size: cover;
+    height: 50svh;
+    width: 100%;
+}
+
+.download .down div {
+    padding: 100px;
+    color: #FFFFFC;
+}
+
+.down div h3 {
+    font-size: 40px;
+    width: 60%;
+}
+
+.down div button {
+    height: 60px;
+    width: 190px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #1576D6;
+    color: #F2F2F2;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* +++++++++++++++++++++++++++++++++++++ */
+
+.the-end {
+    background-color: rgb(247, 244, 236);
+    margin-top: 150px;
+    height: 80svh;
+}
+
+.the-end .first {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.the-end .first p {
+    margin-top: 10px;
+    color: #1576D6;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 90px;
+}
+
+.contain .one {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 30svh;
+}
+
+.contain .one p {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: -75px;
+    color: rgba(108, 117, 125, 1);
+}
+
+.contain .one img {
+    width: 60%;
+}
+
+.contain .two {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 30svh;
+}
+
+.contain .three {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 40svh;
+}
+
+.contain .four {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 25svh;
+}
+
+.contain .five {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 30svh;
+}
+
+.contain h3 {
+    margin-left: 29px;
+    margin-bottom: 8px;
+    color: rgba(37, 41, 44, 1);
+}
+
+.contain a {
+    color: rgba(108, 117, 125, 1);
+}
+
+.contain .three .see {
+    color: #1576D6;
+    font-size: 18px;
+}
+
+
+
+/*---------------------- media guery -----------------------------*/
 
 @media(max-width: 1440px) {
     .diff .svgs {
@@ -255,6 +667,15 @@ input {
     .all .wor p {
         width: 100%;
     }
+
+    .options p {
+        margin-top: 290px;
+    }
+
+    .options .center .option-2 p {
+        margin-top: 690px;
+    }
+
 
 }
 
@@ -329,6 +750,46 @@ input {
         width: 60%;
     }
 
+    .trips {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    }
+
+    .trips h2 {
+        margin-top: 140px;
+        font-size: 20px;
+    }
+
+    .trips p {
+        font-size: 20px;
+        width: 92%;
+    }
+
+    .seas .sea div h3 {
+        font-size: 18px;
+    }
+
+    .seas .sea div p {
+        font-size: 14px;
+    }
+
+    .options p {
+        margin-top: 250px;
+        font-size: 21px;
+    }
+
+    .options .center .option-2 p {
+        margin-top: 595px;
+    }
+
+    .down div h3 {
+        font-size: 28px;
+        width: 85%;
+    }
+
+
+
+
 }
 
 @media(max-width: 768px) {
@@ -399,6 +860,72 @@ input {
         grid-template-columns: 3fr 3fr;
     }
 
+    .trips {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .get .trips .trip {
+        width: 59%;
+    }
+
+    .get .trips .trip-2 {
+        margin-left: 300px;
+    }
+
+    .popular {
+        margin-top: 700px;
+    }
+
+    .popular .seas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .seas .sea div h3 {
+        font-size: 18px;
+    }
+
+    .seas .sea div p {
+        font-size: 14px;
+    }
+
+    .options p {
+        font-size: 25px;
+    }
+
+    .options {
+        grid-template-columns: 1fr;
+    }
+
+    .options .first {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50svh;
+    }
+
+    .contain .one img {
+        width: 100%;
+    }
+
+    .contain .one p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .contain h3 {
+        font-size: 15px;
+    }
+
+    .contain a {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .contain .see {
+        font-size: 12px;
+    }
+
 }
 
 @media(max-width: 450px) {
@@ -436,7 +963,9 @@ input {
     }
 
     .yellow {
-        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
 
     .yellow .all .wor p {
@@ -556,25 +1085,252 @@ input {
         margin-right: 20px;
     }
 
+    .get h2 {
+        font-size: 24px;
+    }
+
+    .trips {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .get .trips .trip-2 {
+        margin-left: 0px;
+    }
+
+    .get .trips .trip {
+        width: 100%;
+    }
+
+    .to-do {
+        display: none;
+    }
+
+
+    /* ----- */
+    .do {
+        display: inline-block;
+    }
+
+    .do .see-all {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .do{
+        width: 90%;
+    }
+
+    .do .options .first {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .do .options .first .option-1 {
+        background-image: url(../images/five\ \(6\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    .do .options .first .option-2 {
+        background-image: url(../images/five\ \(3\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .do .options .center {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: -130px;
+    }
+
+    .do .options p {
+        margin-top: 150px;
+    }
+
+    .do .options .center .option-3 {
+        background-image: url(../images/five\ \(4\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .do .options .center .option-4 {
+        background-image: url(../images/five\ \(2\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .do .options .center .option-4 p {
+        margin-top: 380px;
+    }
+
+    .do .options .end {
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+    }
+
+    .do .options .end .option-5 {
+        background-image: url(../images/five\ \(1\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .do .options .end .option-6 {
+        background-image: url(../images/five\ \(5\).jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .do .options .end .option-6 p {
+        width: 100%;
+    }
+
+    .do .options p {
+        font-size: 18px;
+    }
+
+    .popular {
+        margin-top: 700px;
+    }
+
+    .popular .seas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* =============== */
+    .foots {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .our-foot h2 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+    .download {
+        margin-top: 500px;
+    }
+
+    .download .img .down {
+        background-size: cover;
+        width: 100%;
+        height: 40svh;
+    }
+
+    .down div h3 {
+        font-size: 20px;
+        width: 160%;
+        margin-top: -50px;
+        margin-left: -60px;
+    }
+
+    .down div button {
+        margin-top: 10px;
+        margin-left: -60px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .down div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .the-end {
+        background-color: white;
+        margin-top: -20px;
+    }
+
+    .the-end .first {
+        display: none;
+    }
+
+    .the-end .contain {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .the-end .contain .one {
+        width: 50%;
+    }
+
+    .the-end .contain .one p {
+        margin-left: 15px;
+    }
+
+    .the-end .contain .two {
+        margin-top: -110px;
+    }
+
+    .the-end .contain h3 {
+        padding-top: 30px;
+    }
+
+    .download{
+        padding-top: 50px;
+    }
+
 
 }
 
-@media(max-width: 380px) {
-
-    .yellow {
-        margin-left: auto;
-        margin-right: auto;
+@media (max-width: 380px) {
+    .photos .pho .main h1{
+        font-size: 26px;
 
     }
 
-
-    .why .cards {
-        margin-top: 40px;
+    .places{
+        margin-top: -40px;
     }
 
-    .pho .main h1 {
+    .do .see-all h2,
+    .do .see-all a{
+        font-size: 26px;
+    }
+    
+}
+
+@media(max-width: 325px){
+    .download .down h3{
+        margin-top: -93px;
+        text-align: left;
+        width: 200%;
+    }
+
+    .down div .app{
+        height: 40px;
+    }
+
+    .do .see-all h2,
+    .do .see-all a{
+        font-size: 20px;
+    }
+
+    .do .see-all{
+        padding-top: 30px;
+    }
+
+    .get .trips h2{
+        font-size: 20px;
+        margin-top: 60px;
+        width: 90%;
+    }
+
+    .photos .pho .main h1,
+    .popular h2{
         font-size: 24px;
-        margin-bottom: -20px;
+    }
+
+    .get h2{
+        font-size: 19px;
     }
 
 }
