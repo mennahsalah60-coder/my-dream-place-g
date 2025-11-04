@@ -23,7 +23,7 @@ It was built to improve my front-end skills and learn how to organize elements o
 
 ## 🚀 How to View:
 You can see the live version of this project here:  
-👉 [(https://mennahsalah60-coder.github.io/my-dream-place-g/)](#)
+👉 [[(https://mennahsalah60-coder.github.io/my-dream-place-g/)](https://mennahsalah60-coder.github.io/my-dream-place-g/)](#)
 
 *(replace the # with your live link later when you deploy it)*
 
